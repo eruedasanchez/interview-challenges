@@ -7,6 +7,7 @@ describe("moverCeros", () => {
     expect(moverCeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1])).toMatchObject([
       1, 2, 1, 1, 3, 1, 0, 0, 0, 0,
     ]);
+    
     expect(moverCeros([false, 1, 0, 1, 2, 0, 1, 3, "a"])).toMatchObject([
       false,
       1,
@@ -20,3 +21,4 @@ describe("moverCeros", () => {
     ]);
   });
 });
+

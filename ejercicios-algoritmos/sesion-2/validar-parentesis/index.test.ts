@@ -13,3 +13,5 @@ describe("validarParentesis", () => {
     expect(validarParentesis("(")).toBe(false);
   });
 });
+
+
