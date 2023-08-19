@@ -4,10 +4,11 @@ Alguien estuvo hackeando las notas. El historial de notas de cada estudiante se 
 
 ```js
 const estudiantes = [
-  ["goncy", 445, ["B", "A", "A", "C", "A", "A"]],
-  ["mati", 140, ["B", "A", "A", "A"]],
-  ["caro", 200, ["B", "A", "A", "C"]]
+  ["goncy", 445, ["B", "A", "A", "C", "A", "A"]], // 150
+  ["mati", 140, ["B", "A", "A", "A"]],  // 110
+  ["caro", 200, ["B", "A", "A", "C"]]   // 90
 ];
+// ninguno suma los 20 puntos extra
 ```
 
 Cada calificación corresponde a un puntaje:
@@ -24,7 +25,7 @@ Retornar un listado del nombre de los hackers.
 ```js
 const estudiantes = [
   ["goncy", 445, ["B", "A", "A", "C", "A", "A"]],
-  ["mati", 140, ["B", "A", "A", "A"]],
+  ["mati", 120, ["B", "A", "A", "A"]],
   ["caro", 200, ["B", "A", "A", "C"]]
 ];
 

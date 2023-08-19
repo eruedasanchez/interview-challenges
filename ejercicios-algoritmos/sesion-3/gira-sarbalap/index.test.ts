@@ -4,6 +4,7 @@ import girar from ".";
 
 describe("girar", () => {
   it("deberia girar las palabras correctamente", () => {
+    assert.strictEqual(girar("Casa"), "Casa");
     assert.strictEqual(girar("Welcome"), "emocleW");
     assert.strictEqual(girar("Hey fellow warriors"), "Hey wollef sroirraw");
     assert.strictEqual(girar("This is a test"), "This is a test");

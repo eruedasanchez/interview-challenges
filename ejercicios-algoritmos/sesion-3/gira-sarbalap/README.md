@@ -5,6 +5,6 @@ Escriba una función que tome una cadena de una o más palabras y devuelva la mi
 ### Ejemplos
 
 ```js
-girar("Hola como estás"); // => "Hola como sátes"
+girar("Hola como estás"); // => "Hola como sátse"
 girar("Esto es una prueba"); // => "Esto es una abeurp"
 ```
