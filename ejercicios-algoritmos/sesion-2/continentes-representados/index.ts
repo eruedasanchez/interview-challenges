@@ -8,7 +8,6 @@ type Registry = {
 };
 
 export default function continentesRepresentados(array: Registry[]): boolean {
-  let result: boolean = false;
   let devsByContinent: number[] = [0, 0, 0, 0, 0];
 
   for(let dev of array){
@@ -34,10 +33,6 @@ export default function continentesRepresentados(array: Registry[]): boolean {
         break;
     }
   }
-
-  if(!devsByContinent.includes(0)){
-    result = true;
-  }
   
-  return result;
+  return !devsByContinent.includes(0);
 }
