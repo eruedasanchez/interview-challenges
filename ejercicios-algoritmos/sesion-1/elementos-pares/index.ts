@@ -7,7 +7,7 @@ export default function filtrarPares(array: unknown[]): unknown[] {
       let repetitions: unknown[] = array.filter(element => element === array[i]);
       if(repetitions.length % 2 === 0){
         // El elemento aparece una cantidad par de veces
-        pairs.push(array[i]);
+        pairs.push(repetitions[0]);
       }
     }
   }
