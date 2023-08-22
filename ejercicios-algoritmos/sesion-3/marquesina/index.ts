@@ -16,7 +16,7 @@ export default function marquesina(texto: string): string[] {
       arrActualText.push(char);
     }
 
-    // Se swapea el primer caracter del actualText con todos los demsa hasta que llega al final
+    // Se swapea el primer caracter del actualText con todos los demas hasta que llega al final
     for(let idx=0; idx < arrActualText.length - 1; idx++){
       let charTmp = arrActualText[idx];
       arrActualText.splice(idx, 1, arrActualText[idx+1]);

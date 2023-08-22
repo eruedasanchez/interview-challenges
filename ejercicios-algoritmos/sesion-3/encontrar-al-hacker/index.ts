@@ -49,7 +49,7 @@ export default function encontrarHackers(students: Estudiante[]): string[] {
 
     let actualStudent: DataStudent = { name: student[0], puntaje: score};
 
-    if(actualStudent.puntaje < student[1]){
+    if(student[1] > actualStudent.puntaje){
       hackers.push(actualStudent.name);
     }
   }
