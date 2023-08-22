@@ -8,4 +8,5 @@ describe("buscarAislado", () => {
   it("debería devolver el número aislado para [2, 6, 8, 10, 3]", () => expect(buscarAislado([2, 6, 8, 10, 3])).toBe(3));
   it("debería devolver el número aislado para [0, 0, 3, 0, 0]", () => expect(buscarAislado([0, 0, 3, 0, 0])).toBe(3));
   it("debería devolver el número aislado para [1, 1, 0, 1, 1]", () => expect(buscarAislado([1, 1, 0, 1, 1])).toBe(0));
+  it("debería devolver el número aislado para [160, 3, 1719, 19, 11, 13, -21]", () => expect(buscarAislado([160, 3, 1719, 19, 11, 13, -21])).toBe(160));
 });

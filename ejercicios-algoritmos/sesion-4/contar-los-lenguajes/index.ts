@@ -5,7 +5,7 @@ export default function contarLosLenguajes(developers: Developer[]): Record<stri
 
   for(const dev of developers){
     if(!Object.keys(languages).includes(dev.language)){
-        // El lenguaje no esta definido como clave del objeto (hay que agregarlo)
+      // El lenguaje no esta definido como clave del objeto 
       languages[dev.language] = 1;
       } else {
       languages[dev.language] += 1;
